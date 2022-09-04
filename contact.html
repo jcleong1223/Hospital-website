@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>TrueLife Hospital</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    </head>
+
+    <body>
+        <section class="about-header">
+        <nav>
+            <a href="index.html"> <img src="https://i.pinimg.com/originals/2a/35/b1/2a35b15e65c10785fb21d0f7a63e1a72.jpg" width="90px"></a>
+            <div class="nav-links" id="NavLink">
+                <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li> <a href="#home">Home</a></li>
+                    <li> <a href="#doctor">Find a Specialist</a></li>
+                    <li> <a href="#facilities">Facilities</a></li>
+                    <li> <a href="#ward">Ward Type</a></li>
+                    <li> <a href="#gallery">Gallery</a></li>
+                    <li> <a href="#aboutus">About Us</a></li>
+                    <li> <a href="#contactus">Contact Us</a></li>
+                </ul>
+            </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact TrueLife Hospital</h1>
+    </section>
+
+<!-----------------------Contact Us---------------------->
+    <section class="contact">
+        <div class="contentinfo">
+            <h2>Contact Us</h2>
+            <p>Do not hestitate to connect to us by just dropping a message or reach us out.</p>
+        </div>    
+        <div class="container">
+            <div class="contactinfo">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p> Jalan XXX, Taman Taynton View, <br>56000 Kuala Lumpur.</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-open-o"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>hello.there@truelifehospital.com</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>03-1111 222 33</p>
+                        </div>
+                    </div>
+            </div>
+            <div class="contactForm">
+                <form>
+                    <h2>Send Message</h2>
+                    <div class="inputbox">
+                        <input type="text" name="" required="required">
+                        <span>Full name</span>
+                    </div>
+                    <div class="inputbox">
+                        <input type="text" name="" required="required">
+                        <span>Email</span>
+                    </div>
+                    <div class="inputbox">
+                        <textarea required="required">
+                        </textarea>
+                        <span>Message to us</span>
+                    </div>
+                    <div class="inputbox">
+                        <input type="submit" name="" value="Send">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+        
+    
+<!-----------------------Footer---------------------->
+        
+    <footer class="footsy">
+        <div class="icons">
+            <i class="fa fa-facebook-square"></i>
+            <i class="fa fa-reddit"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+        </div>
+    
+        <div class="text">
+            <p>Designed by
+                <i class="fa fa-check-circle-o" aria-hidden="true"></i> Leong Jia Chong</p>
+        </div>
+           
+    </footer>
+    
+        
+        
+<!-----------------------Javascript----------------------->
+    <script>
+        var NavLink = document.getElementById("NavLink")
+        function showMenu()
+        {
+            NavLink.style.right = "0";
+        }
+        function hideMenu()
+        {
+            NavLink.style.right = "-150px";
+        }
+    </script>
+        
+    </body>
+
+
+
+</html>
